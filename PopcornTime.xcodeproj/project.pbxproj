@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		130F668C18592393FAC7FBBD /* Pods_PopcornTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC5C1C16CBC91DDFD3B8DA7 /* Pods_PopcornTime.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BE37A9441BCD756200059BB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9431BCD756200059BB8 /* AppDelegate.swift */; };
-		BE37A9461BCD756200059BB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9451BCD756200059BB8 /* ViewController.swift */; };
 		BE37A9491BCD756200059BB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE37A9471BCD756200059BB8 /* Main.storyboard */; };
 		BE37A94B1BCD756200059BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE37A94A1BCD756200059BB8 /* Assets.xcassets */; };
 		BE37A94E1BCD756200059BB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE37A94C1BCD756200059BB8 /* LaunchScreen.storyboard */; };
 		BE37A9591BCD756300059BB8 /* PopcornTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9581BCD756300059BB8 /* PopcornTimeTests.swift */; };
 		BE37A9641BCD756300059BB8 /* PopcornTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9631BCD756300059BB8 /* PopcornTimeUITests.swift */; };
+		BE37A9941BCD75B300059BB8 /* ObjectMapperExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9731BCD75B300059BB8 /* ObjectMapperExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9951BCD75B300059BB8 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9741BCD75B300059BB8 /* StringExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9961BCD75B300059BB8 /* RealmCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9781BCD75B300059BB8 /* RealmCommand.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9971BCD75B300059BB8 /* RealmMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9791BCD75B300059BB8 /* RealmMapper.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9981BCD75B300059BB8 /* ShowRestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A97C1BCD75B300059BB8 /* ShowRestClient.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9991BCD75B300059BB8 /* ServerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A97D1BCD75B300059BB8 /* ServerConfiguration.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A99A1BCD75B300059BB8 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A97F1BCD75B300059BB8 /* Episode.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A99B1BCD75B300059BB8 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9801BCD75B300059BB8 /* Rating.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A99C1BCD75B300059BB8 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9811BCD75B300059BB8 /* Show.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A99D1BCD75B300059BB8 /* ShowImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9821BCD75B300059BB8 /* ShowImage.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A99E1BCD75B300059BB8 /* Torrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9831BCD75B300059BB8 /* Torrent.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A99F1BCD75B300059BB8 /* ListShowsAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9891BCD75B300059BB8 /* ListShowsAPIDataManager.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9A01BCD75B300059BB8 /* ListShowsLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A98B1BCD75B300059BB8 /* ListShowsLocalDataManager.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9A11BCD75B300059BB8 /* ListShowsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A98D1BCD75B300059BB8 /* ListShowsInteractor.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9A21BCD75B300059BB8 /* ListShowsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A98F1BCD75B300059BB8 /* ListShowsPresenter.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9A31BCD75B300059BB8 /* ListShowsModuleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9911BCD75B300059BB8 /* ListShowsModuleProtocols.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9A41BCD75B300059BB8 /* ListShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9931BCD75B300059BB8 /* ListShowsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7DC5C1C16CBC91DDFD3B8DA7 /* Pods_PopcornTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcornTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC97878D18749A920698CAC /* Pods-PopcornTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopcornTime/Pods-PopcornTime.release.xcconfig"; sourceTree = "<group>"; };
 		BE37A9401BCD756200059BB8 /* PopcornTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopcornTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE37A9431BCD756200059BB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE37A9451BCD756200059BB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE37A9481BCD756200059BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE37A94A1BCD756200059BB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE37A94D1BCD756200059BB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +65,24 @@
 		BE37A95F1BCD756300059BB8 /* PopcornTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopcornTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE37A9631BCD756300059BB8 /* PopcornTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopcornTimeUITests.swift; sourceTree = "<group>"; };
 		BE37A9651BCD756300059BB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE37A9731BCD75B300059BB8 /* ObjectMapperExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectMapperExtension.swift; sourceTree = "<group>"; };
+		BE37A9741BCD75B300059BB8 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		BE37A9781BCD75B300059BB8 /* RealmCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmCommand.swift; sourceTree = "<group>"; };
+		BE37A9791BCD75B300059BB8 /* RealmMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmMapper.swift; sourceTree = "<group>"; };
+		BE37A97C1BCD75B300059BB8 /* ShowRestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowRestClient.swift; sourceTree = "<group>"; };
+		BE37A97D1BCD75B300059BB8 /* ServerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerConfiguration.swift; sourceTree = "<group>"; };
+		BE37A97F1BCD75B300059BB8 /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		BE37A9801BCD75B300059BB8 /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		BE37A9811BCD75B300059BB8 /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		BE37A9821BCD75B300059BB8 /* ShowImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowImage.swift; sourceTree = "<group>"; };
+		BE37A9831BCD75B300059BB8 /* Torrent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Torrent.swift; sourceTree = "<group>"; };
+		BE37A9891BCD75B300059BB8 /* ListShowsAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListShowsAPIDataManager.swift; sourceTree = "<group>"; };
+		BE37A98B1BCD75B300059BB8 /* ListShowsLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListShowsLocalDataManager.swift; sourceTree = "<group>"; };
+		BE37A98D1BCD75B300059BB8 /* ListShowsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListShowsInteractor.swift; sourceTree = "<group>"; };
+		BE37A98F1BCD75B300059BB8 /* ListShowsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListShowsPresenter.swift; sourceTree = "<group>"; };
+		BE37A9911BCD75B300059BB8 /* ListShowsModuleProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListShowsModuleProtocols.swift; sourceTree = "<group>"; };
+		BE37A9931BCD75B300059BB8 /* ListShowsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListShowsViewController.swift; sourceTree = "<group>"; };
+		DD76697E2A531A0CB3244E46 /* Pods-PopcornTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopcornTime/Pods-PopcornTime.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				130F668C18592393FAC7FBBD /* Pods_PopcornTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +111,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		312101720BC874602160ED8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD76697E2A531A0CB3244E46 /* Pods-PopcornTime.debug.xcconfig */,
+				AFC97878D18749A920698CAC /* Pods-PopcornTime.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A79CB41D84D91EB7CB58CA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DC5C1C16CBC91DDFD3B8DA7 /* Pods_PopcornTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE37A9371BCD756200059BB8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +135,8 @@
 				BE37A9571BCD756300059BB8 /* PopcornTimeTests */,
 				BE37A9621BCD756300059BB8 /* PopcornTimeUITests */,
 				BE37A9411BCD756200059BB8 /* Products */,
+				312101720BC874602160ED8D /* Pods */,
+				7A79CB41D84D91EB7CB58CA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +153,8 @@
 		BE37A9421BCD756200059BB8 /* PopcornTime */ = {
 			isa = PBXGroup;
 			children = (
+				BE37A9711BCD75B300059BB8 /* Application */,
 				BE37A9431BCD756200059BB8 /* AppDelegate.swift */,
-				BE37A9451BCD756200059BB8 /* ViewController.swift */,
 				BE37A9471BCD756200059BB8 /* Main.storyboard */,
 				BE37A94A1BCD756200059BB8 /* Assets.xcassets */,
 				BE37A94C1BCD756200059BB8 /* LaunchScreen.storyboard */,
@@ -125,6 +181,166 @@
 			path = PopcornTimeUITests;
 			sourceTree = "<group>";
 		};
+		BE37A9711BCD75B300059BB8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9721BCD75B300059BB8 /* Extensions */,
+				BE37A9751BCD75B300059BB8 /* Infrastructure */,
+				BE37A97E1BCD75B300059BB8 /* Model */,
+				BE37A9841BCD75B300059BB8 /* Modules */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BE37A9721BCD75B300059BB8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9731BCD75B300059BB8 /* ObjectMapperExtension.swift */,
+				BE37A9741BCD75B300059BB8 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BE37A9751BCD75B300059BB8 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9761BCD75B300059BB8 /* Local */,
+				BE37A97A1BCD75B300059BB8 /* Remote */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		BE37A9761BCD75B300059BB8 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9771BCD75B300059BB8 /* Realm */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		BE37A9771BCD75B300059BB8 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9781BCD75B300059BB8 /* RealmCommand.swift */,
+				BE37A9791BCD75B300059BB8 /* RealmMapper.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		BE37A97A1BCD75B300059BB8 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A97B1BCD75B300059BB8 /* Alamofire */,
+				BE37A97D1BCD75B300059BB8 /* ServerConfiguration.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		BE37A97B1BCD75B300059BB8 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A97C1BCD75B300059BB8 /* ShowRestClient.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		BE37A97E1BCD75B300059BB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A97F1BCD75B300059BB8 /* Episode.swift */,
+				BE37A9801BCD75B300059BB8 /* Rating.swift */,
+				BE37A9811BCD75B300059BB8 /* Show.swift */,
+				BE37A9821BCD75B300059BB8 /* ShowImage.swift */,
+				BE37A9831BCD75B300059BB8 /* Torrent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE37A9841BCD75B300059BB8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9851BCD75B300059BB8 /* Shows */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BE37A9851BCD75B300059BB8 /* Shows */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9861BCD75B300059BB8 /* List */,
+			);
+			path = Shows;
+			sourceTree = "<group>";
+		};
+		BE37A9861BCD75B300059BB8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9871BCD75B300059BB8 /* DataManager */,
+				BE37A98C1BCD75B300059BB8 /* Interactor */,
+				BE37A98E1BCD75B300059BB8 /* Presenter */,
+				BE37A9901BCD75B300059BB8 /* Protocols */,
+				BE37A9921BCD75B300059BB8 /* View */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		BE37A9871BCD75B300059BB8 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9881BCD75B300059BB8 /* API */,
+				BE37A98A1BCD75B300059BB8 /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		BE37A9881BCD75B300059BB8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9891BCD75B300059BB8 /* ListShowsAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BE37A98A1BCD75B300059BB8 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A98B1BCD75B300059BB8 /* ListShowsLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		BE37A98C1BCD75B300059BB8 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A98D1BCD75B300059BB8 /* ListShowsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		BE37A98E1BCD75B300059BB8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A98F1BCD75B300059BB8 /* ListShowsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BE37A9901BCD75B300059BB8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9911BCD75B300059BB8 /* ListShowsModuleProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BE37A9921BCD75B300059BB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9931BCD75B300059BB8 /* ListShowsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +348,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE37A9681BCD756300059BB8 /* Build configuration list for PBXNativeTarget "PopcornTime" */;
 			buildPhases = (
+				A71EC786942C625EA12501BC /* Check Pods Manifest.lock */,
 				BE37A93C1BCD756200059BB8 /* Sources */,
 				BE37A93D1BCD756200059BB8 /* Frameworks */,
 				BE37A93E1BCD756200059BB8 /* Resources */,
+				1AECB338946AC859284B9A21 /* Embed Pods Frameworks */,
+				E37C91527B5B668F974C6458 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,13 +469,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AECB338946AC859284B9A21 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopcornTime/Pods-PopcornTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A71EC786942C625EA12501BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E37C91527B5B668F974C6458 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopcornTime/Pods-PopcornTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE37A93C1BCD756200059BB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE37A9461BCD756200059BB8 /* ViewController.swift in Sources */,
+				BE37A9971BCD75B300059BB8 /* RealmMapper.swift in Sources */,
+				BE37A99A1BCD75B300059BB8 /* Episode.swift in Sources */,
+				BE37A9A11BCD75B300059BB8 /* ListShowsInteractor.swift in Sources */,
+				BE37A99E1BCD75B300059BB8 /* Torrent.swift in Sources */,
+				BE37A9A31BCD75B300059BB8 /* ListShowsModuleProtocols.swift in Sources */,
+				BE37A9981BCD75B300059BB8 /* ShowRestClient.swift in Sources */,
+				BE37A9A01BCD75B300059BB8 /* ListShowsLocalDataManager.swift in Sources */,
 				BE37A9441BCD756200059BB8 /* AppDelegate.swift in Sources */,
+				BE37A9961BCD75B300059BB8 /* RealmCommand.swift in Sources */,
+				BE37A9941BCD75B300059BB8 /* ObjectMapperExtension.swift in Sources */,
+				BE37A99B1BCD75B300059BB8 /* Rating.swift in Sources */,
+				BE37A99D1BCD75B300059BB8 /* ShowImage.swift in Sources */,
+				BE37A9A21BCD75B300059BB8 /* ListShowsPresenter.swift in Sources */,
+				BE37A9951BCD75B300059BB8 /* StringExtension.swift in Sources */,
+				BE37A99F1BCD75B300059BB8 /* ListShowsAPIDataManager.swift in Sources */,
+				BE37A9A41BCD75B300059BB8 /* ListShowsViewController.swift in Sources */,
+				BE37A99C1BCD75B300059BB8 /* Show.swift in Sources */,
+				BE37A9991BCD75B300059BB8 /* ServerConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +679,7 @@
 		};
 		BE37A9691BCD756300059BB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD76697E2A531A0CB3244E46 /* Pods-PopcornTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PopcornTime/Info.plist;
@@ -407,6 +691,7 @@
 		};
 		BE37A96A1BCD756300059BB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC97878D18749A920698CAC /* Pods-PopcornTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PopcornTime/Info.plist;
@@ -483,6 +768,7 @@
 				BE37A96A1BCD756300059BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE37A96B1BCD756300059BB8 /* Build configuration list for PBXNativeTarget "PopcornTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +777,7 @@
 				BE37A96D1BCD756300059BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE37A96E1BCD756300059BB8 /* Build configuration list for PBXNativeTarget "PopcornTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +786,7 @@
 				BE37A9701BCD756300059BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
