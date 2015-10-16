@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dR1-tx-3yD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="jhs-ue-wB5">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
@@ -14,12 +14,15 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellID" id="UQJ-lD-YN5">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UQJ-lD-YN5" id="cJk-uH-2wx">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="hV8-od-zPG" kind="show" identifier="DetailShowViewController" id="HDL-hV-xd3"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -27,10 +30,79 @@
                             <outlet property="delegate" destination="dR1-tx-3yD" id="qKR-j0-LJe"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="Kjh-ys-GGk"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BYq-gu-tUu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="246" y="224"/>
+            <point key="canvasLocation" x="362" y="228"/>
+        </scene>
+        <!--PopCorn-->
+        <scene sceneID="0Hf-te-UzN">
+            <objects>
+                <viewController id="hV8-od-zPG" customClass="DetailShowViewController" customModule="PopcornTime" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ztd-pp-mYC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xur-hE-JHy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CPF-db-8fu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOh-0l-gDL">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="ImO-PH-6l2"/>
+                                    <constraint firstAttribute="height" constant="30" id="MdY-H8-b79"/>
+                                </constraints>
+                                <state key="normal" title="play"/>
+                                <connections>
+                                    <action selector="playButtonTapped:" destination="hV8-od-zPG" eventType="touchUpInside" id="DtC-Dq-YFO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unknown" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XyG-h8-zj8">
+                                <rect key="frame" x="215" y="145" width="171" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="171" id="ySk-NT-xyf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XyG-h8-zj8" firstAttribute="centerX" secondItem="CPF-db-8fu" secondAttribute="centerX" id="9o4-Jj-6ao"/>
+                            <constraint firstItem="HOh-0l-gDL" firstAttribute="centerY" secondItem="CPF-db-8fu" secondAttribute="centerY" id="Lt0-ms-oUq"/>
+                            <constraint firstItem="HOh-0l-gDL" firstAttribute="centerX" secondItem="CPF-db-8fu" secondAttribute="centerX" id="XEs-cS-i0v"/>
+                            <constraint firstItem="HOh-0l-gDL" firstAttribute="top" secondItem="XyG-h8-zj8" secondAttribute="bottom" constant="119" id="tHY-1D-u6A"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="PopCorn" id="V0Z-Hh-WJb"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="XyG-h8-zj8" id="zVi-Eq-HV8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sas-lx-2mD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1139" y="228"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZPF-8f-NWa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jhs-ue-wB5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4tk-Cg-g53">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dR1-tx-3yD" kind="relationship" relationship="rootViewController" id="vE3-da-Gcb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s6D-KE-1Ta" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-450" y="228"/>
         </scene>
     </scenes>
 </document>

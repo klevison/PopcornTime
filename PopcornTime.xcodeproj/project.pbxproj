@@ -31,6 +31,14 @@
 		BE37A9A21BCD75B300059BB8 /* ListShowsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A98F1BCD75B300059BB8 /* ListShowsPresenter.swift */; settings = {ASSET_TAGS = (); }; };
 		BE37A9A31BCD75B300059BB8 /* ListShowsModuleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9911BCD75B300059BB8 /* ListShowsModuleProtocols.swift */; settings = {ASSET_TAGS = (); }; };
 		BE37A9A41BCD75B300059BB8 /* ListShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9931BCD75B300059BB8 /* ListShowsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9EB1BCEE5A000059BB8 /* DetailShowAPIDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9E01BCEE5A000059BB8 /* DetailShowAPIDataManager.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9EC1BCEE5A000059BB8 /* DetailShowLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9E21BCEE5A000059BB8 /* DetailShowLocalDataManager.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9ED1BCEE5A000059BB8 /* DetailShowInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9E41BCEE5A000059BB8 /* DetailShowInteractor.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9EE1BCEE5A000059BB8 /* DetailShowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9E61BCEE5A000059BB8 /* DetailShowPresenter.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9EF1BCEE5A000059BB8 /* DetailShowProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9E81BCEE5A000059BB8 /* DetailShowProtocols.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9F21BCEE5BD00059BB8 /* DetailShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9F11BCEE5BD00059BB8 /* DetailShowViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9F51BCFE5FE00059BB8 /* ChromeCastListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9F41BCFE5FE00059BB8 /* ChromeCastListener.swift */; settings = {ASSET_TAGS = (); }; };
+		BE37A9F71BCFE65C00059BB8 /* TextChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE37A9F61BCFE65C00059BB8 /* TextChannel.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,19 @@
 			remoteInfo = PopcornTime;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE37A9C61BCD8DF000059BB8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7DC5C1C16CBC91DDFD3B8DA7 /* Pods_PopcornTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PopcornTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +103,15 @@
 		BE37A98F1BCD75B300059BB8 /* ListShowsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListShowsPresenter.swift; sourceTree = "<group>"; };
 		BE37A9911BCD75B300059BB8 /* ListShowsModuleProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListShowsModuleProtocols.swift; sourceTree = "<group>"; };
 		BE37A9931BCD75B300059BB8 /* ListShowsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListShowsViewController.swift; sourceTree = "<group>"; };
+		BE37A9C81BCDC55A00059BB8 /* PopcornTime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopcornTime-Bridging-Header.h"; sourceTree = "<group>"; };
+		BE37A9E01BCEE5A000059BB8 /* DetailShowAPIDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailShowAPIDataManager.swift; sourceTree = "<group>"; };
+		BE37A9E21BCEE5A000059BB8 /* DetailShowLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailShowLocalDataManager.swift; sourceTree = "<group>"; };
+		BE37A9E41BCEE5A000059BB8 /* DetailShowInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailShowInteractor.swift; sourceTree = "<group>"; };
+		BE37A9E61BCEE5A000059BB8 /* DetailShowPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailShowPresenter.swift; sourceTree = "<group>"; };
+		BE37A9E81BCEE5A000059BB8 /* DetailShowProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailShowProtocols.swift; sourceTree = "<group>"; };
+		BE37A9F11BCEE5BD00059BB8 /* DetailShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailShowViewController.swift; sourceTree = "<group>"; };
+		BE37A9F41BCFE5FE00059BB8 /* ChromeCastListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromeCastListener.swift; sourceTree = "<group>"; };
+		BE37A9F61BCFE65C00059BB8 /* TextChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextChannel.swift; sourceTree = "<group>"; };
 		DD76697E2A531A0CB3244E46 /* Pods-PopcornTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopcornTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopcornTime/Pods-PopcornTime.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,6 +188,7 @@
 				BE37A9471BCD756200059BB8 /* Main.storyboard */,
 				BE37A94A1BCD756200059BB8 /* Assets.xcassets */,
 				BE37A94C1BCD756200059BB8 /* LaunchScreen.storyboard */,
+				BE37A9C81BCDC55A00059BB8 /* PopcornTime-Bridging-Header.h */,
 				BE37A94F1BCD756300059BB8 /* Info.plist */,
 			);
 			path = PopcornTime;
@@ -231,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				BE37A97B1BCD75B300059BB8 /* Alamofire */,
+				BE37A9F31BCFE5EC00059BB8 /* Chromecast */,
 				BE37A97D1BCD75B300059BB8 /* ServerConfiguration.swift */,
 			);
 			path = Remote;
@@ -267,6 +299,7 @@
 		BE37A9851BCD75B300059BB8 /* Shows */ = {
 			isa = PBXGroup;
 			children = (
+				BE37A9DD1BCEE5A000059BB8 /* Detail */,
 				BE37A9861BCD75B300059BB8 /* List */,
 			);
 			path = Shows;
@@ -341,6 +374,84 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		BE37A9DD1BCEE5A000059BB8 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9DE1BCEE5A000059BB8 /* DataManager */,
+				BE37A9E31BCEE5A000059BB8 /* Interactor */,
+				BE37A9E51BCEE5A000059BB8 /* Presenter */,
+				BE37A9E71BCEE5A000059BB8 /* Protocols */,
+				BE37A9E91BCEE5A000059BB8 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		BE37A9DE1BCEE5A000059BB8 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9DF1BCEE5A000059BB8 /* API */,
+				BE37A9E11BCEE5A000059BB8 /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		BE37A9DF1BCEE5A000059BB8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9E01BCEE5A000059BB8 /* DetailShowAPIDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BE37A9E11BCEE5A000059BB8 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9E21BCEE5A000059BB8 /* DetailShowLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		BE37A9E31BCEE5A000059BB8 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9E41BCEE5A000059BB8 /* DetailShowInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		BE37A9E51BCEE5A000059BB8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9E61BCEE5A000059BB8 /* DetailShowPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BE37A9E71BCEE5A000059BB8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9E81BCEE5A000059BB8 /* DetailShowProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BE37A9E91BCEE5A000059BB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9F11BCEE5BD00059BB8 /* DetailShowViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE37A9F31BCFE5EC00059BB8 /* Chromecast */ = {
+			isa = PBXGroup;
+			children = (
+				BE37A9F41BCFE5FE00059BB8 /* ChromeCastListener.swift */,
+				BE37A9F61BCFE65C00059BB8 /* TextChannel.swift */,
+			);
+			path = Chromecast;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -354,6 +465,7 @@
 				BE37A93E1BCD756200059BB8 /* Resources */,
 				1AECB338946AC859284B9A21 /* Embed Pods Frameworks */,
 				E37C91527B5B668F974C6458 /* Copy Pods Resources */,
+				BE37A9C61BCD8DF000059BB8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -522,23 +634,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE37A9F51BCFE5FE00059BB8 /* ChromeCastListener.swift in Sources */,
 				BE37A9971BCD75B300059BB8 /* RealmMapper.swift in Sources */,
 				BE37A99A1BCD75B300059BB8 /* Episode.swift in Sources */,
+				BE37A9EB1BCEE5A000059BB8 /* DetailShowAPIDataManager.swift in Sources */,
+				BE37A9EF1BCEE5A000059BB8 /* DetailShowProtocols.swift in Sources */,
+				BE37A9EE1BCEE5A000059BB8 /* DetailShowPresenter.swift in Sources */,
 				BE37A9A11BCD75B300059BB8 /* ListShowsInteractor.swift in Sources */,
 				BE37A99E1BCD75B300059BB8 /* Torrent.swift in Sources */,
 				BE37A9A31BCD75B300059BB8 /* ListShowsModuleProtocols.swift in Sources */,
 				BE37A9981BCD75B300059BB8 /* ShowRestClient.swift in Sources */,
 				BE37A9A01BCD75B300059BB8 /* ListShowsLocalDataManager.swift in Sources */,
 				BE37A9441BCD756200059BB8 /* AppDelegate.swift in Sources */,
+				BE37A9ED1BCEE5A000059BB8 /* DetailShowInteractor.swift in Sources */,
 				BE37A9961BCD75B300059BB8 /* RealmCommand.swift in Sources */,
 				BE37A9941BCD75B300059BB8 /* ObjectMapperExtension.swift in Sources */,
 				BE37A99B1BCD75B300059BB8 /* Rating.swift in Sources */,
 				BE37A99D1BCD75B300059BB8 /* ShowImage.swift in Sources */,
+				BE37A9F21BCEE5BD00059BB8 /* DetailShowViewController.swift in Sources */,
 				BE37A9A21BCD75B300059BB8 /* ListShowsPresenter.swift in Sources */,
 				BE37A9951BCD75B300059BB8 /* StringExtension.swift in Sources */,
 				BE37A99F1BCD75B300059BB8 /* ListShowsAPIDataManager.swift in Sources */,
 				BE37A9A41BCD75B300059BB8 /* ListShowsViewController.swift in Sources */,
+				BE37A9F71BCFE65C00059BB8 /* TextChannel.swift in Sources */,
 				BE37A99C1BCD75B300059BB8 /* Show.swift in Sources */,
+				BE37A9EC1BCEE5A000059BB8 /* DetailShowLocalDataManager.swift in Sources */,
 				BE37A9991BCD75B300059BB8 /* ServerConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -682,10 +802,35 @@
 			baseConfigurationReference = DD76697E2A531A0CB3244E46 /* Pods-PopcornTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PopcornTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireObjectMapper\"",
+					"-framework",
+					"\"GoogleCast\"",
+					"-framework",
+					"\"ObjectMapper\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIAlertController_Blocks\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.klevison.PopcornTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PopcornTime-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -694,10 +839,35 @@
 			baseConfigurationReference = AFC97878D18749A920698CAC /* Pods-PopcornTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PopcornTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireObjectMapper\"",
+					"-framework",
+					"\"GoogleCast\"",
+					"-framework",
+					"\"ObjectMapper\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIAlertController_Blocks\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.klevison.PopcornTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PopcornTime-Bridging-Header.h";
 			};
 			name = Release;
 		};

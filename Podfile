@@ -7,7 +7,9 @@ pod 'Alamofire'
 pod 'AlamofireObjectMapper'
 pod 'ObjectMapper'
 pod 'SVProgressHUD'
-pod 'RealmSwift'
+#pod 'RealmSwift'
+pod 'google-cast-sdk'
+pod 'UIAlertController+Blocks'
 
 end
 

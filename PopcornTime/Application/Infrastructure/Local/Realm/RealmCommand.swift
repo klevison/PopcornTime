@@ -6,10 +6,10 @@
 //  Copyright (c) 2015 Klevison Matias. All rights reserved.
 //
 
-import RealmSwift
-
-class RealmCommand {
-    
+//import RealmSwift
+//
+//class RealmCommand {
+//    
 //    private static func findBy<T: Object>(field: String, value: String) -> T? {
 //        let collection = Realm().objects(T).filter("\(field) = '\(value)'").toArray(T) as [T]
 //        if collection.count > 0 {
@@ -53,4 +53,4 @@ class RealmCommand {
 //        }
 //    }
     
-}
+//}

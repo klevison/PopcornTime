@@ -19,6 +19,12 @@ final class ListShowsViewController: UITableViewController {
         //presenter?.getShowById("tt1475582")
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "DetailShowViewController" {
+            let detailShowViewController = segue.destinationViewController as! DetailShowViewController
+            detailShowViewController.show = shows[(tableView.indexPathForSelectedRow?.row)!]
+        }
+    }
     
 }
 
@@ -51,6 +57,6 @@ extension ListShowsViewController {
         cell?.textLabel?.text = show.id
         return cell!
     }
-
+    
 }
 
